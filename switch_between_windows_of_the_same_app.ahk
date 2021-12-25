@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ; Alt + ` -  Activate next window of the current app
-!+`::
+!`::
 
 ; Get the current process name
 WinGet, ProcNameVar, ProcessName, A ; ahk_exe
